@@ -1,0 +1,167 @@
+header {
+  background-color: #b3d7db;
+  border-bottom: 2px solid rgba(163, 160, 160, 0.973);
+  padding-top: 3%;
+}
+
+header #nav {
+  max-width: 10%;
+  height: 4rem;
+}
+
+header .img_box {
+  max-width: 6rem;
+  max-height: 6rem;
+  border-radius: 50%;
+}
+
+header .img_box #pc_img {
+  border-radius: 50%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 50%;
+  border: 6px solid rgba(41, 24, 17, 0.932);
+}
+
+.textbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  min-width: 55%;
+  max-width: 60%;
+  max-height: 10rem;
+  background-color: rgba(41, 24, 17, 0.932);
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: 6px solid whitesmoke;
+}
+
+.textbox p {
+  color: white;
+}
+
+.textbox #close {
+  min-height: 0.5rem;
+  min-width: 0.5rem;
+}
+
+.slider {
+  width: 100%;
+  height: 20%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.slider__progress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60%;
+  height: 1.5rem;
+  margin: 1.5rem;
+  border: 0.5rem solid aquamarine;
+  background-color: aqua;
+  border-radius: 50px;
+}
+
+.slider__progress--bar {
+  width: 6rem;
+  height: 6rem;
+}
+
+.slider > * {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: brown;
+  max-width: 60%;
+  max-height: 30%;
+}
+
+.item > * {
+  max-width: 90%;
+}
+
+.item__img {
+  min-width: 90%;
+  height: 60%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.item__ratings {
+  min-width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 2rem;
+}
+
+.item__buttons {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-bottom: 1rem;
+}
+
+.item__buttons > * {
+  min-width: 25%;
+  max-width: 28%;
+  min-height: 3rem;
+  height: 30%;
+  border: 0.2rem solid white;
+  background-color: chartreuse;
+}
+
+.item__buttons .save {
+  background-color: aqua;
+  color: white;
+}
+
+.item__buttons .cancel {
+  background-color: orange;
+}
+/*# sourceMappingURL=UILayout.css.map */
