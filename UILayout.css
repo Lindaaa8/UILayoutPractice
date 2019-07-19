@@ -296,5 +296,6 @@ footer .selected {
   width: 100%;
   height: 2rem;
   background: #dffcfc;
+  border-bottom: 0.5rem solid #b1fcfc;
 }
 /*# sourceMappingURL=UILayout.css.map */
